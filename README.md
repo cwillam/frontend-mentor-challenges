@@ -7,12 +7,7 @@ The goal is to improve my frontend skills by building real layouts based on prof
 
 ## 🧱 Folder Structure
 
-Each challenge has its own folder:
-
-frontend-mentor-challenges/
-    challenge-recipe-page/
-        challenge-product-preview-card/
-            challenge-faq-accordion-card/
+Each challenge has its own folder
 
 ---
 
