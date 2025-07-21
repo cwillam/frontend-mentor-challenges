@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  background-color: #141414;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
