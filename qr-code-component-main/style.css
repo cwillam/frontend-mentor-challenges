@@ -1,62 +1,68 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:  'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: hsl(225, 100%, 94%);
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 18px;
-    color: hsl(224, 23%, 55%);
+  background-color: hsl(225, 100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 18px;
+  color: hsl(224, 23%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
 .container {
-    background-color: white;
-    height: 450px;
-    width: 90%;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+  width: 320px; /* Fixierte Breite wie bei Mobile */
+  height: 500px; /* Fixierte Höhe */
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
 .container img {
-    height: 265px;
-    width: 265px;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .headline {
-    text-align: center;
-    font-weight: 800;
-    color: black;
-    font-size: 17px;
+  text-align: center;
+  font-weight: 800;
+  color: black;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 .content {
-    text-align: center;
-    font-size: 14px;
-    margin-bottom: 10px;
+  text-align: center;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+  padding: 0 10px;
 }
 
 .attribution {
+  position: absolute;
+  bottom: 10px;
   font-size: 11px;
   text-align: center;
+  width: 100%;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
