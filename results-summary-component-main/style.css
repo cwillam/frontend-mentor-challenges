@@ -1,3 +1,179 @@
+@font-face {
+  font-family: "Hanken";
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Hanken", sans-serif;
+}
+
+body {
+  background-color: #ecf2ff;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 260px;
+  height: 340px;
+  background: linear-gradient(
+    to bottom,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%)
+  );
+  color: white;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  right: -20px;
+  z-index: 2;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    hsla(241, 72%, 46%, 0.6) 0%,
+    hsla(241, 72%, 46%, 0.3) 60%,
+    hsla(241, 72%, 46%, 0.1) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  flex-direction: column;
+}
+
+.container2 {
+  width: 260px;
+  height: 340px;
+  background: white;
+  color: black;
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.points {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+.points2 {
+  font-size: 0.7rem;
+  color: rgb(182, 182, 182);
+}
+
+.result {
+  margin-bottom: 15px;
+}
+
+.great {
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.content {
+  font-size: 0.8rem;
+}
+
+.summary {
+  align-self: flex-start;
+  padding-bottom: 30px;
+  padding-left: 35px;
+  position: relative;
+  top: -8px;
+  left: -30px;
+}
+
+.stats-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+  top: -25px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  width: 100%; /* oder feste Breite wie 200px */
+  font-size: 0.9rem;
+}
+
+/* individuelle Hintergrundfarben */
+.stats1 {
+  background-color: #ffe5e9;
+  color: hsl(0, 100%, 60%);
+}
+.stats2 {
+  background-color: #fff1cc;
+  color: hsl(39, 100%, 56%);
+}
+.stats3 {
+  background-color: #d4f7eb;
+  color: hsl(166, 100%, 35%);
+}
+.stats4 {
+  background-color: #e0e0ff;
+  color: hsl(234, 85%, 45%);
+}
+
+/* optional Score einfärben */
+.score {
+  color: #303b59;
+}
+
+button {
+  align-self: center;
+  padding: 12px 40px;
+  background-color: #303b59;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+button:hover {
+  background-color: #1f2b43;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
